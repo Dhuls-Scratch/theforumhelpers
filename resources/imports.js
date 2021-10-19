@@ -9,12 +9,12 @@ function reference(link) {
 	<a href="${link}apply" class="navButton">Apply</a>
 	<a href="${link}forumhelpers" class="navButton">List Of Forum Helpers</a>
 	<a href="https://scratch.mit.edu/studios/30136012/" class="navButton">Our Scratch Studio</a>
-	<a href="QuickReply" class="navButton">QuickReply</a>
+	<a href="${link}QuickReply" class="navButton">QuickReply</a>
 	<div class="expandableDropdown" onmouseover="expandHeader()" onmouseout="collapseHeader()">
 		<a class="expandableLink" href="${link}apply">Apply</a>
 		<a class="expandableLink" href="${link}forumhelpers">List Of Forum Helpers</a>
 		<a class="expandableLink" href="https://scratch.mit.edu/studios/30136012/">Our Scratch Studio</a>
-		<a class="expandableLink" href="https://theforumhelpers.github.io/QuickReply/">QuickReply</a>
+		<a class="expandableLink" href="${link}QuickReply">QuickReply</a>
 	</div>`
 	document.getElementById("header").innerHTML = headerContent;
 
